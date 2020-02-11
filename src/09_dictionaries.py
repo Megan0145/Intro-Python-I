@@ -45,10 +45,10 @@ waypoints.append({"lat" : 53, "lon" : -120, "name" : "a fourth place"})
 
 # YOUR CODE HERE
 waypoints[0]["name"] = "not a real place"
+waypoints[0]["lon"] = -130
 print(waypoints[0])
 
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 for waypoint in waypoints:
-    for field in waypoint:
-        print(waypoint[field])
+   print(waypoint["lon"], waypoint["lat"], waypoint["name"])
