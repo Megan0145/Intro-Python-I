@@ -11,4 +11,7 @@ num = int(num)
 
 # YOUR CODE HERE
 
-print(is_even(num))
+if is_even(num) == True:
+    print("Even!")
+else:
+    print("Odd")    
