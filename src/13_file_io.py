@@ -24,5 +24,7 @@ f = open('src/bar.txt', 'w')
 f.write("I\n")
 f.write("Love\n")
 f.write("Python\n")
+f.close()
+
 with open('src/bar.txt') as f:
     print(f.read())
