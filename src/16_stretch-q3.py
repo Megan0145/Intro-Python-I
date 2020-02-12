@@ -76,8 +76,10 @@ def optimised_is_prime(n):
                 lst[j] = False
         i += 1      
     # return all i such that A[i] is true.
+    output = []
     for i in range(2, n):
         if lst[i]:
-            print(lst[i])
+            output.append(i)
+    print(f'Prime numbers from 1 -> {n}: {output}')
 
-optimised_is_prime(30)
+optimised_is_prime(10)
